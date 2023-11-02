@@ -44,7 +44,7 @@ class Udcomp
 	public static void main(String args[])
 	{
 		ArrayList<bank> al=new ArrayList<bank>();
-		al.add(new bank(79,"jamuna"));
+		al.add(new bank(79,"Ganesh"));
 		al.add(new bank(22,"Yamuna"));
 		al.add(new bank(17,"Janaki"));
 		Collections.sort(al,new compcusid());
