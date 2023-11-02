@@ -15,7 +15,7 @@ class Bank
 		return "Name: "+cusname+" Customer id: "+cusid;
 	}
 }
-class compcusid implements Comparator
+class compcusid implements Comparator	//<Bank>
 {
 	public int compare(Object o1,Object o2)
 	{
@@ -44,11 +44,11 @@ class Udcomp
 {
 	public static void main(String args[])
 	{
-		TreeMap<Integer,Bank> al=new TreeMap<Integer,Bank>();
+		TreeMap<Integer,Bank> al=new TreeMap<Integer,Bank>();	//new TreeMap<Integer,Bank>(new compcusid());
 		al.put(1,new Bank(79,"Ganesh"));
 		al.put(2,new Bank(22,"Yamuna"));
 		al.put(3,new Bank(17,"Janaki"));
-		ArrayList<Bank> hs=new ArrayList<Bank>(al.values());
+		ArrayList<Bank> hs=new ArrayList<Bank>(al.values());		
 		System.out.println(hs);
 		Collections.sort(hs,new compcusid());
 		Iterator<Bank> i=hs.iterator();
