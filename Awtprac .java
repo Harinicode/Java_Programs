@@ -32,6 +32,7 @@ class Awtprac
 					}
 				);
 				f.setSize(300,300);
+			 	t3.setEditable(false);
 				f.setVisible(true);
 			}
 			public static void main(String args[])
