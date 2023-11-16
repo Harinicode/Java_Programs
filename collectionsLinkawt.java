@@ -67,7 +67,7 @@ class Info
 					
 						for(Info s:al)
 						{
-							tt.setText(s.toString());
+							tt.setText(s.toString());									//append
 			
 						}
 						//tt.setText("Name: "+name+"Roll no: "+String.valueOf(rollno));
