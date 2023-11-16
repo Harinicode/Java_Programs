@@ -54,8 +54,8 @@ class Info
 						rollno=Integer.parseInt(t2.getText());
 						//al=new ArrayList<Info>();
 						//al.add(new Info(rollno,name));
-						System.out.println("Added contents into ArrayList");
-						System.out.println(al);
+						//System.out.println("Added contents into ArrayList");
+						//System.out.println(al);
 					}
 				});
 				display.addActionListener(new ActionListener()
